@@ -4,7 +4,7 @@ activetab: index
 ---
 
 <section id="dates" class="container px-6 py-6">
-  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4-desktop">
+  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4">
     Datas Importantes
   </p>
   <div>
@@ -81,7 +81,7 @@ activetab: index
 </section>
 
 <section id="route" class="container py-6">
-  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4-desktop">
+  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4">
     Como chegar
   </p>
   <p class="has-text-justified mx-6">
@@ -147,7 +147,7 @@ activetab: index
 </section>
 
 <section id="entities" class="container py-6">
-  <p class="subtitle has-text-centered is-size-5-desktop mt-6 mb-0">
+  <p class="subtitle has-text-centered is-size-5 mt-6 mb-0">
     Organização
   </p>
   <div class="columns is-centered is-vcentered is-multiline is-mobile">
@@ -187,7 +187,7 @@ activetab: index
       </a>
     </div>
   </div>
-  <p class="subtitle has-text-centered is-size-5-desktop mt-6 mb-0">
+  <p class="subtitle has-text-centered is-size-5 mt-6 mb-0">
     Patrocínio
   </p>
   <div class="columns is-centered is-vcentered is-multiline is-mobile">
@@ -213,7 +213,7 @@ activetab: index
       </a>
     </div>
   </div>
-  <p class="subtitle has-text-centered is-size-5-desktop mt-6 mb-0">
+  <p class="subtitle has-text-centered is-size-5 mt-6 mb-0">
     Apoio
   </p>
   <div class="columns is-centered is-vcentered is-multiline is-mobile">
