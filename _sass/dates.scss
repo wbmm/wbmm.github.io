@@ -1,0 +1,47 @@
+.event-item {
+  margin: 18px 0;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary;
+    box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+
+    .event-dot,
+    .event-dot.is-active {
+      background-color: white;
+    }
+
+    .event-body,
+    .event-header {
+      color:white;
+    }
+  }
+
+  .event-dot,
+  .event-header {
+    display: inline-block;
+  }
+
+  .event-dot {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: $grey-lighter;
+    box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+
+    &.is-active {
+      background-color: $primary;
+    }
+  }
+
+  .event-header {
+    margin-left: 10px;
+  }
+
+  .event-body {
+    font-size: 12px;
+    margin-left: 27px;
+  }
+}

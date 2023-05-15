@@ -1,0 +1,87 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  letter-spacing: -0.25px;
+}
+
+body {
+  background-color: $primary;
+}
+
+.body-content {
+  min-height: 100vh;
+}
+
+footer.footer {
+  .icon {
+    margin-right: .5rem;
+  }
+
+  .external {
+	  margin-bottom: 1rem;
+    word-break: break-word;
+  }
+}
+
+#agenda,
+#entities,
+#org,
+#about,
+#call,
+#dates,
+#route,
+#publication,
+#backers,
+#themes,
+.hero-foot {
+  @include until-widescreen {
+    margin: 0 3rem;
+  }
+}
+
+#about,
+#call,
+#entities {
+  background-color: white;
+}
+
+#agenda,
+#publication,
+#org,
+#backers,
+#dates,
+#route,
+#themes {
+  background-color: $background;
+
+  & > .title {
+    padding-top: 2rem;
+  }
+}
+
+#logo,
+#logoCeN {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+#logoW {
+  margin: 0 auto;
+  max-width: 512px;
+}
+
+#themelist {
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+#callbutton {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+
+  a {
+    margin: 0 auto;
+  }
+}

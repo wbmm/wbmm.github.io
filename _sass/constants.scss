@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+$family-sans-serif: 'Lexend Deca', sans-serif;
+
+$yellow: hsl(37, 100%, 65%);
+$cyan: hsl(173, 50%, 56%);
+
+$primary: #015871;
+$primary-invert: white;
+$secondary: $yellow;
+$secondary-invert: black;
+
+$link: $primary;
+$link-invert: $primary-invert;
+
+$text: hsl(0, 0%, 21%);

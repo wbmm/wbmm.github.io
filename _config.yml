@@ -1,0 +1,27 @@
+title: XIII Workshop Brasileiro de Micrometeorologia
+description: O Workshop Brasileiro de Micrometeorologia (WBMM) aborda soluções de diferentes problemas envolvendo o fenômeno da turbulência na baixa atmosfera.
+url: https://wbmm.github.io
+lang: pt-BR
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  producers:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /social.png
+
+exclude: [
+  package.json, Gemfile,
+  Gemfile.lock, yarn.lock,
+  README.md,
+  vendor, node_modules
+]
+
+include: [
+  social.png
+]

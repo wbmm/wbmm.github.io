@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+      <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{% link /favicon.ico %}">
+
+    {% if page.title %}
+    <title>{{ page.title }} | {{ site.title | default: 'XIII Workshop Brasileiro de Micrometeorologia' }}</title>
+    {% else %}
+    <title>{{ site.title | default: 'XIII Workshop Brasileiro de Micrometeorologia' }}</title>
+    {% endif %}
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/fonts/fontello/css/fontello.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | absolute_url }}">
+
+
+    {% seo %}
+  </head>
+
+  {{ content }}
+</html>

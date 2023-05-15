@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.frontmatter
+node_modules/
+vendor
+*.lock
+.bundle/

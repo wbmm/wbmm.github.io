@@ -1,0 +1,53 @@
+---
+layout: content
+---
+
+<section class="hero is-success is-fullheight">
+  <div class="hero-body">
+    <div class="ocean">
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+    <div class="container has-text-centered">
+      <figure id="logoW" class="image">
+        <img src="{{ '/assets/img/logo-w.png' | absolute_url }}">
+      </figure>
+      <div class="is-centered mt-6">
+        <a href="https://www.even3.com.br/xiiiwbmicro/" target="_blank">
+          <button class="button is-warning is-rounded py-6 px-6">
+            <span>
+              Realizar Inscrição<br>
+              <span class="icon is-large">
+                <i class="fas fa-2x icon-even3"></i>
+              </span>
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        {% assign tabs = "index, chamada, agenda, organizadores, palestrantes" | split: ", " %}
+        <ul>
+          {% for tab in tabs %}
+            {% if tab == "index" %}
+              {% if page.activetab == "index" %}
+                <li class="is-active"><a>Sobre</a></li>
+              {% else %}
+                <li><a href="/">Sobre</a></li>
+              {% endif %}
+            {% elsif tab == page.activetab %}
+              <li class="is-active"><a href="/{{ tab }}">{{ tab | capitalize}}</a></li>
+            {% else %}
+              <li><a href="/{{ tab }}">{{ tab | capitalize}}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+
+{{ content }}
