@@ -80,7 +80,7 @@ activetab: index
   </div>
 </section>
 
-<section id="route" class="container px-6 py-6">
+<section id="route" class="container py-6">
   <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4-desktop">
     Como chegar
   </p>
@@ -146,7 +146,7 @@ activetab: index
   </div>
 </section>
 
-<section id="entities" class="container px-6 py-6">
+<section id="entities" class="container py-6">
   <p class="subtitle has-text-centered is-size-5-desktop mt-6 mb-0">
     Organização
   </p>
