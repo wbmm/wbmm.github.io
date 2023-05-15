@@ -4,7 +4,7 @@ activetab: chamada
 ---
 
 <section id="themes" class="container px-6 py-6">
-  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4-desktop">
+  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4">
     Áreas Temáticas
   </p>
   <div class="columns is-tablet mt-3">
@@ -48,7 +48,7 @@ activetab: chamada
 </section>
 
 <section id="call" class="container px-6 py-6">
-  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4-desktop">
+  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4">
     Submissão de Artigos
   </p>
   <p class="has-text-justified">
@@ -79,7 +79,7 @@ activetab: chamada
 </section>
 
 <section id="publication" class="container px-6 py-6">
-  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4-desktop">
+  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4">
     Publicação
   </p>
   <div class="columns is-tablet mt-6">
