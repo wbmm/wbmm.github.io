@@ -3,7 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 .frontmatter
-node_modules/
 vendor
 *.lock
 .bundle/
