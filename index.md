@@ -53,7 +53,7 @@ activetab: index
       </figure>
       <div id="callbutton">
         <a href="https://www.even3.com.br/xiiiwbmicro/" target="_blank">
-          <button class="button is-primary is-rounded py-6 px-6">
+          <button class="button is-primary is-rounded">
             <span>
               Submeter Artigo<br>
               <span class="icon is-large">
