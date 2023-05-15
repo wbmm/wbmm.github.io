@@ -5,7 +5,10 @@
   bottom:0;
   left:0;
   background: #015871;
-  overflow: visible;
+  
+  @include touch {
+    overflow: clip;
+  }
 }
 
 .wave {
