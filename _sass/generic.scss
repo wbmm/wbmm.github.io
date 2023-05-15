@@ -24,22 +24,6 @@ footer.footer {
   }
 }
 
-#agenda,
-#entities,
-#org,
-#about,
-#call,
-#dates,
-#route,
-#publication,
-#backers,
-#themes,
-.hero-foot {
-  @include until-widescreen {
-    margin: 0 3rem;
-  }
-}
-
 #about,
 #call,
 #entities {
