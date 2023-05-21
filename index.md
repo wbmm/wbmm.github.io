@@ -38,7 +38,7 @@ activetab: index
           <span class="date">25/10/2023</span>
         </div>
         <div class="status">
-          <h4>Início do XIII WBMM</h4>
+          <h4>Início do XIII WBMicro</h4>
         </div>
       </li>
     </ul>
