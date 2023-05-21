@@ -78,6 +78,47 @@ activetab: chamada
   </div>
 </section>
 
+<section id="templates" class="container px-6 py-6">
+  <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4">
+    Templates
+  </p>
+  <p class="has-text-justified">
+    Abaixo estão disponíveis para download os modelos para submissão de trabalho no XIII Workshop Brasileiro de Micrometeorologia. Em cada arquivo estão presentes as instruções com as normas para submissão.
+  </p>
+  <div class="buttons is-centered py-6">
+    <a href="{{ '/assets/files/modelo_latex.zip' | absolute_url }}" target="_blank">
+      <button class="button is-primary is-light is-rounded">
+        <span>
+          Modelo LaTeX<br>
+          <span class="icon is-large">
+            <i class="fas fa-lg icon-file-code"></i>
+          </span>
+        </span>
+      </button>
+    </a>
+    <a href="{{ '/assets/files/modelo_libreoffice.odt' | absolute_url }}" target="_blank">
+      <button class="button is-primary is-light is-rounded">
+        <span>
+          Libre Office<br>
+          <span class="icon is-large">
+            <i class="fas fa-lg icon-doc-text"></i>
+          </span>
+        </span>
+      </button>
+    </a>
+    <a href="{{ '/assets/files/modelo_word.docx' | absolute_url }}" target="_blank">
+      <button class="button is-primary is-light is-rounded">
+        <span>
+          Microsoft Word<br>
+          <span class="icon is-large">
+            <i class="fas fa-lg icon-file-word"></i>
+          </span>
+        </span>
+      </button>
+    </a>
+  </div>
+</section>
+
 <section id="publication" class="container px-6 py-6">
   <p class="title has-text-centered has-text-weight-bold is-uppercase is-size-4">
     Publicação
